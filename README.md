@@ -1,104 +1,91 @@
+# AETE Open Source Development Repository
 
-# Good Work, Everyone!
+Welcome to the **Open Source Development Repository** of our association! This repository serves as a hub for learning, collaboration, and recognition for developers contributing to HTML, CSS, and frontend projects. 🚀
 
-Here are some important updates and changes that need to be addressed in the webpage codebase:
+## 🌟 Top Contributors
 
-## **Change Requirements**
+We are grateful for the incredible contributions from our top contributors:
 
-### **1. Navbar Changes**
-- **Remove Faculty Section:**
-  - Delete the "Faculty" section from the navbar.
-  - Add a new section displaying **Chairman Name** and **Convener Name**.
+- **Arav Bhatnagar** - 1st ET, HBTU Kanpur
+- **Prateek Srivastava** -2nd ET, HBTU Kanpur, Associate Head AETE
+- **Devraj Singh** -2nd ET, HBTU Kanpur , Associate Head AETE
+- **Tanya Verma** -2nd ET, HBTU Kanpur
 
-- **Reorganize Navbar Items:**
-  - Rearrange and update the navbar to include:
-    - **Admissions**
-    - **About Us** (Rename to **ATET** if applicable).
-    - **Our Events** (Rename "Projects" to "Our Events").
-    - **Department Tour** (Add a new section).
+## 📢 About the Repository
 
-- **General Updates:**
-  - Delete any unnecessary navbar items.
-  - Ensure proper responsiveness of the navbar across all devices.
+This repository is dedicated to:
+- Promoting open-source contributions for ET/Other Students.
+- Recognizing top contributors with certifications, prizes, and mentions.
+- Providing a platform for developers to enhance their skills in HTML, CSS, and frontend development.
 
----
+## 🏆 Rewards and Recognition
 
-### **2. Home Page Updates**
-- **Title and Logo:**
-  - Change the website title to **AETE**.
-  - Add the **AETE logo** to the homepage.
+### Top Contributors
+The top contributors to this repository will receive the following benefits:
+1. **Certificate of Achievement** for open-source contributions.
+2. Exclusive **prizes and goodies** from our association.
+3. **Google Developer Student Clubs (GDSC)** certificates.
+4. Permanent **mention on our official repository and website** as a top contributor.
 
-- **Department Information:**
-  - Include **Department of ECE** prominently on the homepage.
+### Other Benefits
+- Recognition in the developer community.
+- Opportunity to build a strong portfolio with real-world projects.
+- Networking with like-minded individuals and professionals.
 
-- **Content Updates:**
-  - Add the following sections to the homepage:
-    1. **Gallery Section**: Include images showcasing events, projects, and campus life.
-    2. **About Section**: Provide a brief overview of the department or organization.
-    3. **Team Section**: Highlight key team members and their roles.
+## 📂 Projects in This Repository
 
----
+This repository focuses on projects related to:
+- HTML and CSS components.
+- Frontend templates and designs.
+- Web animations and interactive UI elements.
 
-### **3. UI/UX Improvements**
-- **Search Box Responsiveness:**
-  - Ensure the search box is fully responsive for all screen sizes and devices.
+Feel free to explore the projects and contribute to the ones that interest you the most.
 
-- **Footer Enhancements:**
-  - Update the footer font style for improved readability and aesthetics.
+## 🚀 How to Contribute
 
-- **LinkedIn Option:**
-  - Verify and fix any issues with the LinkedIn link or integration.
+We welcome contributors of all experience levels! Follow these steps to get started:
 
----
+1. **Create an Issue**
+   - Navigate to the [Issues](./issues) section.
+   - Open a new issue describing the bug or feature you want to work on.
 
-### **4. Alumni Section**
-- Add a new **Alumni Section** with the following components:
-  - **Notable Alumni**: Highlight key achievements and profiles of notable alumni.
-  - **Year-wise Alumni**: Categorize alumni by their graduation year.
-  - **Alumni Fund**: Provide a section for alumni to contribute funds.
-  - **Google Form**: Add a form to collect information from alumni.
+2. **Wait for Assignment**
+   - Our maintainers will review your issue and assign it to you if it's valid.
 
----
+3. **Fork the Repository**
+   - Click on the "Fork" button at the top-right corner of the page.
+   - Clone your forked repository to your local system.
 
-### **5. Student Database**
-- Include a section to manage and display a **Student Database**.
+4. **Work on the Issue**
+   - Create a new branch using the naming convention: `issue-<issue-number>`.
+   - Make your changes and test them thoroughly.
 
----
+5. **Commit and Push**
+   - Commit your changes with a clear and descriptive message.
+   - Push your branch to your forked repository.
 
-### **6. General Functionality**
-- Ensure the LinkedIn option is functional and links correctly.
-- Maintain consistency in design, layout, and user experience.
+6. **Create a Pull Request (PR)**
+   - Open a PR from your branch to the `main` branch of this repository.
+   - Include the issue number in the PR description for reference.
 
----
+7. **Code Review**
+   - Wait for the maintainers to review your PR.
+   - Make changes if requested and re-submit.
 
-### **7. Most Important - Data Migration**
-- **Refer to the Previous Website and Codebase:**
-  - Extract relevant data and features from the existing website.
-  - Ensure seamless integration of previous content into the updated structure.
+8. **Merge**
+   - Once approved, your changes will be merged into the main branch.
 
----
+## 🛠️ Code of Conduct
 
-### **8. Summary of All Updates**
-- **Navbar:**
-  - Remove "Faculty".
-  - Add Chairman and Convener details.
-  - Include **Department Tour** in the navbar.
+Please adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) while contributing. We expect all contributors to maintain a respectful and inclusive environment.
 
-- **Homepage:**
-  - Change title to **AETE**.
-  - Add the **AETE logo**.
-  - Include **Gallery**, **About**, and **Team** sections.
+## 📧 Contact Us
 
-- **UI/UX Improvements:**
-  - Ensure responsiveness for search box and navbar.
-  - Update footer font and LinkedIn functionality.
-
-- **New Features:**
-  - Add **Alumni Section** and **Student Database**.
+If you have any questions or suggestions, feel free to reach out:
+- Priyanshu Yadav, Mentor, 3rd ET
+- Prateek Srivastava, Maintainer 1st, 2nd ET
+- Devraj Singh, Mainter 2nd, 2nd ET
 
 ---
 
-## **Development Notes**
-- Ensure all changes are responsive and functional across all devices.
-- Follow best practices for UI/UX design and accessibility.
-- Use the previous codebase as a reference for accurate migration of content and functionality.
+Let’s make open source amazing together! 🌟 Happy coding! 😄
