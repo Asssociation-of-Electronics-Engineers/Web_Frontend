@@ -4,6 +4,62 @@
     Version         : 1.0
 * ================================================================================= */
 
+// Anti-debugging and inspection protection
+(function() {
+    // Disable right-click
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    // Disable keyboard shortcuts
+    document.addEventListener('keydown', function(e) {
+        // Prevent F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+        if (
+            e.keyCode === 123 || 
+            (e.ctrlKey && e.shiftKey && e.keyCode === 73) ||
+            (e.ctrlKey && e.shiftKey && e.keyCode === 74) ||
+            (e.ctrlKey && e.keyCode === 85)
+        ) {
+            e.preventDefault();
+        }
+    });
+
+    // Anti-DevTools detection
+    let devtools = function() {};
+    devtools.toString = function() {
+        this.opened = true;
+    }
+
+    // Debug protection
+    setInterval(function() {
+        if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+            // DevTools likely opened
+            document.body.innerHTML = 'Developer tools are not allowed on this site.';
+        }
+        console.log(devtools);
+    }, 1000);
+
+    // Disable viewing source
+    document.onkeypress = function(event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            return false;
+        }
+    }
+    document.onmousedown = function(event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            return false;
+        }
+    }
+    document.onkeydown = function(event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            return false;
+        }
+    }
+})();
+
 (function ($) {
   "use strict";
   $(document).on("ready", function () {

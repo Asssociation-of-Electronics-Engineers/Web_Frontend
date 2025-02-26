@@ -1,20 +1,68 @@
 <!DOCTYPE html>
-<html class="no-js" lang="ZXX">
+<html class="no-js" lang="en">
 
 <head>
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="robots" content="all">
-    <meta name="keywords"
-        content="online learning, education, e-learning, courses, tutorials, educational resources, skill development, career enhancement">
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="AETE - Association of Electronics Engineers | HBTU Kanpur">
+    <meta name="description" content="Official website of AETE (Association of Electronics Engineers) at HBTU Kanpur. Join the premier technical society for electronics engineering students. Discover workshops, events, projects, and networking opportunities.">
+    <meta name="keywords" content="AETE, Association of Electronics Engineers, HBTU Kanpur, electronics engineering, technical society, engineering students, HBTU electronics department, electronics workshops, technical events, engineering projects, HBTU student organization">
+    <meta name="author" content="AETE Web Development Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aete.hbtu.ac.in/">
+    <meta property="og:title" content="AETE - Association of Electronics Engineers | HBTU Kanpur">
+    <meta property="og:description" content="Official website of AETE (Association of Electronics Engineers) at HBTU Kanpur. Join the premier technical society for electronics engineering students.">
+    <meta property="og:image" content="images/logo-3.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aete.hbtu.ac.in/">
+    <meta property="twitter:title" content="AETE - Association of Electronics Engineers | HBTU Kanpur">
+    <meta property="twitter:description" content="Official website of AETE (Association of Electronics Engineers) at HBTU Kanpur. Join the premier technical society for electronics engineering students.">
+    <meta property="twitter:image" content="images/logo-3.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="images/logo-3.png">
+    <link rel="apple-touch-icon" href="images/logo-3.png">
 
     <!-- Site Title -->
-    <title>AETE | HBTU Kanpur</title>
+    <title>AETE - Association of Electronics Engineers | HBTU Kanpur</title>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Association of Electronics Engineers",
+      "alternateName": "AETE HBTU",
+      "url": "https://aete.hbtu.ac.in",
+      "logo": "images/logo-3.png",
+      "sameAs": [
+        "https://www.facebook.com/aetehbtu",
+        "https://twitter.com/aetehbtu",
+        "https://www.linkedin.com/company/aetehbtu",
+        "https://www.instagram.com/aete.hbtu"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "HBTU Kanpur",
+        "addressLocality": "Kanpur",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "208002",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aete.hbtu.ac.in/">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -34,7 +82,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="ep-magic-cursor">
+<body class="ep-magic-cursor" itemscope itemtype="https://schema.org/WebPage">
 
     <!-- Start Preloader  -->
     <div id="preloader">
@@ -76,25 +124,22 @@
                     <nav id="offcanvas-menu" class="navigation offcanvas-menu">
                         <ul id="nav mobile-nav" class="list-none offcanvas-men-list">
                             <li>
-                                <a class="menu-arrow" href="javascript:void(0)">Home</a>
+                                <a class="menu-arrow" href="index.html">Home</a>
                             </li>
                             <li>
-                                <a class="menu-arrow" href="javascript:void(0)">About Us</a>
+                                <a class="menu-arrow" href="about.html">About Us</a>
                             </li>
                             <li>
-                                <a class="menu-arrow" href="javascript:void(0)">Team</a>
+                                <a class="menu-arrow" href="team.html">Team</a>
                             </li>
                             <li>
-                                <a class="menu-arrow" href="javascript:void(0)">Academics</a>
-                            </li>
-                            <li>
-                                <a class="menu-arrow" href="javascript:void(0)">Alumini</a>
+                                <a class="menu-arrow" href="javascript:void(0)">Alumni</a>
                             </li>
                             <li>
                                 <a class="menu-arrow" href="javascript:void(0)">Virtual Tour</a>
                             </li>
                             <li>
-                                <a href="#">Contact Us</a>
+                                <a href="contact.html">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
@@ -124,12 +169,11 @@
                     <nav class="ep-header__navigation">
                         <ul class="ep-header__menu">
                             <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="about.html">About Us</a></li>
                             <li><a href="team.html">Team</a></li>
-                            <li><a href="#">Academics</a></li>
                             <li><a href="#">Alumni</a></li>
                             <li><a href="#">Virtual Tour</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
                     
@@ -155,167 +199,137 @@
               <div class="col-lg-12 col-xl-6 col-12">
                 <div class="ep-hero__content">
                   <h1 class="ep-hero__title ep-split-text left">
-                    Your First
+                    Your Gateway
                     <span>
                       <a class="ep-hero__hover-images position-relative" href="">
                         <img class="hover-img-1 wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s"
                           src="images/text-arrow.svg" alt="arrow">
-                        <img class="hover-img-2" src="images/hover-img.jpg" alt="hover-img">
+                        <img class="hover-img-2" src="images/text-arrow.svg" alt="hover-img">
                       </a>
-                      Step in
+                      to Excellence
                     </span>
-                    Electronics
+                    in Electronics
                   </h1>
                   <p class="ep-hero__text">
-                    Lorem ipsum dolor sit amet consectetur. Amet lectus mi
-                    ultricies dict Lorem ipsum dolor sit amet consectetur.
-                    Amet lectus mi ultricies dictum facilisis sem. Imperdiet
-                    massa turpis sit proin metus volutpat.facilisis
+                    Welcome to AETE - the Association of Electronics Engineers at HBTU Kanpur. 
+                    Join us in our mission to foster innovation, technical excellence, and 
+                    professional growth in electronics engineering through hands-on learning, 
+                    industry collaboration, and cutting-edge projects.
                   </p>
                   <div class="ep-hero__btn">
-                    <a class=" ep-btn">Explore Now <i class="fi fi-rs-arrow-small-right"></i>
-                    </a>
+                    <a class="ep-btn">Join AETE <i class="fi fi-rs-arrow-small-right"></i></a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-12 col-xl-6 col-12 order-top">
                 <div class="ep-hero__widget">
-                  <!-- Widget One  -->
-                  <div class="ep-hero__widget-column">
-                    <!-- Arrow Button -->
-                    <div class="ep-hero__widget-arrow ep-hobble">
-                      <a href="#" class="ep-hover-layer-2">
-                        <i class="fi fi-ss-arrow-up-right"></i>
-                      </a>
+                    <!-- Widget One  -->
+                    <div class="ep-hero__widget-column">
+                        <!-- Arrow Button -->
+                        <div class="ep-hero__widget-arrow ep-hobble">
+                            <a href="#" class="ep-hover-layer-2">
+                                <i class="fi fi-ss-arrow-up-right"></i>
+                            </a>
+                        </div>
+                        <!-- Image One -->
+                        <div class="ep-hero__widget-img">
+                            <img src="images/img-1.png" alt="hero-img">
+                        </div>
+                        <!-- Team Widget -->
+                        <div class="ep-hero__team">
+                            <div class="ep-hero__team-img">
+                                <ul class="ep-hero__team-img-list">
+                                    <li><img src="images/1.png" alt="team-img"></li>
+                                    <li><img src="images/2.png" alt="team-img"></li>
+                                    <li><img src="images/3.png" alt="team-img"></li>
+                                    <li><img src="images/4.png" alt="team-img"></li>
+                                </ul>
+                            </div>
+                            <div class="ep-hero__team-info">
+                                <h5><span class="counter">1000</span>+</h5>
+                                <p>Alumni Network</p>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Image One -->
-                    <div class="ep-hero__widget-img">
-                      <img src="images/img-1.png" alt="hero-img">
+                    <!-- Shape Image -->
+                    <div class="ep-hero__shape updown-ani">
+                        <img src="images/shape.svg" alt="shape">
                     </div>
-                    <!-- Team Widget -->
-                    <div class="ep-hero__team">
-                      <div class="ep-hero__team-img">
-                        <ul class="ep-hero__team-img-list">
-                          <li>
-                            <img src="images/1.png" alt="team-img">
-                          </li>
-                          <li>
-                            <img src="images/2.png" alt="team-img">
-                          </li>
-                          <li>
-                            <img src="images/3.png" alt="team-img">
-                          </li>
-                          <li>
-                            <img src="images/4.png" alt="team-img">
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="ep-hero__team-info">
-                        <h5><span class="counter">3,000</span>+</h5>
-                        <p>Active Members</p>
-                      </div>
+                    <!-- Widget Two  -->
+                    <div class="ep-hero__widget-column">
+                        <div class="ep-hero__course">
+                            <span class="counter">50</span>
+                            <p>Events<br>Done</p>
+                        </div>
+                        <!-- Image Two -->
+                        <div class="ep-hero__widget-img">
+                            <img src="images/img-2.png" alt="hero-img">
+                        </div>
                     </div>
-                  </div>
-                  <!-- Shape Image -->
-                  <div class="ep-hero__shape updown-ani">
-                    <img src="images/shape.svg" alt="shape">
-                  </div>
-                  <!-- Widget Two  -->
-                  <div class="ep-hero__widget-column">
-                    <div class="ep-hero__course">
-                      <span class="counter">50</span>
-                      <p>Events<br>Done</p>
-                    </div>
-                    <!-- Image Two -->
-                    <div class="ep-hero__widget-img">
-                      <img src="images/img-2.png" alt="hero-img">
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <!-- End Start Hero Area -->
+        <!-- End Hero Area -->
 
         <!-- Start About Area -->
         <section class="ep-about ep-section section-gap position-relative">
-          <div class="ep-about__shape updown-ani">
-            <img src="images/circle-shape.svg" alt="circle-shape">
-          </div>
-          <div class="container ep-container">
-            <div class="row align-items-center">
-              <div class="col-lg-6 col-12">
-                <div class="ep-section__img position-relative">
-                  <div class="ep-section__img-shape rotate-ani">
-                    <img src="images/pattern-shape.svg" alt="pattern-shape">
-                  </div>
-                  <div class="ep-section__img-main">
-                    <img src="images/about-img.png" alt="about-img">
-                  </div>
-                  <div class="overview-card updown-ani">
-                    <div class="overview-card__icon">
-                      <img src="images/user.svg" alt="user-icon">
-                    </div>
-                    <div class="overview-card__info">
-                      <h4><span>2</span>k+</h4>
-                      <p>Enrolled Students</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-12">
-                <div class="ep-section__content">
-                  <div class="ep-section-head">
-                    <span class="ep-section-head__sm-title ep1-color">Know About Us</span>
-                    <h3 class="ep-section-head__big-title ep-split-text left">
-                      Unlocking the <span>Power</span> <br>
-                      of Community
-                    </h3>
-                    <p class="ep-section-head__text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem ipsam veritatis! Dolorum
-                      recusandae quo consectetur iure possimus. Qui provident sequi saepe dolorem laudantium voluptatem
-                      aspernatur fugiat deserunt mollitia! Expedita.
-                    </p>
-                  </div>
-                  <div class="ep-section__widget">
-                    <div class="ep-feature-list">
-                      <div class="ep-feature-list__icon">
-                        <i class="fi fi-ss-check-circle"></i>
-                      </div>
-                      <div class="ep-feature-list__info">
-                        <h5>Content 1</h5>
-                        <p>
-                          Et purus duis sollicitudin dignissim habitant.
-                          Egestas nulla quis venenatis cras sed eu massa eu
-                          faucibus.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="ep-feature-list">
-                      <div class="ep-feature-list__icon">
-                        <i class="fi fi-ss-check-circle"></i>
-                      </div>
-                      <div class="ep-feature-list__info">
-                        <h5>Content 2</h5>
-                        <p>
-                          Et purus duis sollicitudin dignissim habitant.
-                          Egestas nulla quis venenatis cras sed eu massa eu
-                          faucibus.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="ep-section__btn">
-                    <a href="" class="ep-btn border-btn">Read More <i class="fi fi-rs-arrow-small-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div class="ep-about__shape updown-ani">
+                <img src="images/circle-shape.svg" alt="circle-shape">
             </div>
-          </div>
+            <div class="container ep-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="ep-section__img position-relative">
+                            <div class="ep-section__img-shape rotate-ani">
+                                <img src="images/pattern-shape.svg" alt="pattern-shape">
+                            </div>
+                            <div class="ep-section__img-main">
+                                <img src="images/about-img.png" alt="about">
+                            </div>
+                            <div class="overview-card wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="1s">
+                                <div class="overview-card__icon">
+                                    <img src="images/shape-1.svg" alt="shape">
+                                </div>
+                                <div class="overview-card__info">
+                                    <h4><span class="counter">35</span>+</h4>
+                                    <p>Years of Excellence</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="ep-section__content">
+                            <span class="ep-section-title__subtitle wow fadeInUp" data-wow-delay=".2s"
+                                data-wow-duration="1s">About Us</span>
+                            <h2 class="ep-section-title__heading wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+                                Empowering Future Electronics Engineers Since 1985
+                            </h2>
+                            <p class="ep-section__text wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">
+                                The Association of Electronics Engineers (AETE) at HBTU Kanpur is a dynamic community dedicated 
+                                to fostering excellence in electronics engineering. Through workshops, seminars, and hands-on 
+                                projects, we create opportunities for students to develop technical skills and innovative solutions.
+                            </p>
+                            <div class="ep-section__img--style2 wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">
+                                <div class="ep-section__widget--style2">
+                                    <ul class="ep-feature-list">
+                                        <li><i class="fi fi-rs-check"></i> Technical Workshops & Training</li>
+                                        <li><i class="fi fi-rs-check"></i> Industry Expert Sessions</li>
+                                        <li><i class="fi fi-rs-check"></i> Project Development Support</li>
+                                    </ul>
+                                    <ul class="ep-feature-list">
+                                        <li><i class="fi fi-rs-check"></i> Research Opportunities</li>
+                                        <li><i class="fi fi-rs-check"></i> Professional Networking</li>
+                                        <li><i class="fi fi-rs-check"></i> Career Development</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- End Start About Area -->
 
         <!-- Start Category Area -->
         <section class="ep-category section-gap pt-0">
@@ -399,7 +413,7 @@
                     <img src="images/6.svg" alt="category-icon">
                   </div>
                   <div class="ep-category__info">
-                    <h3>Alumini</h3>
+                    <h3>Alumni</h3>
                   </div>
                 </a>
               </div>
@@ -520,15 +534,16 @@
                           <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                               data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              <span>01</span>What are the benefits of
-                              AETE Community?
+                              <span>01</span>What are the benefits of AETE Community?
                             </button>
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="ep-faq__accordion-body">
                               <p class="ep-faq__accordion-text">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, dolore?
+                                As an AETE member, you'll gain access to technical workshops, industry expert sessions, project mentorship, 
+                                networking opportunities with alumni, and hands-on experience with cutting-edge electronics projects. 
+                                You'll also be part of a vibrant community that enhances both academic and professional growth.
                               </p>
                             </div>
                           </div>
@@ -545,8 +560,9 @@
                             data-bs-parent="#accordionExample">
                             <div class="ep-faq__accordion-body">
                               <p class="ep-faq__accordion-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui amet architecto incidunt
-                                odio aut perferendis.
+                                AETE membership is open to all Electronics Engineering students at HBTU Kanpur. The registration process 
+                                opens at the beginning of each academic year. Simply fill out the membership form, pay the nominal 
+                                membership fee, and participate in the induction program to become an official member.
                               </p>
                             </div>
                           </div>
@@ -556,15 +572,57 @@
                           <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <span>03</span>Can I get mentor support?
+                              <span>03</span>What kind of events does AETE organize?
                             </button>
                           </h2>
                           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="ep-faq__accordion-body">
                               <p class="ep-faq__accordion-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate reiciendis nostrum
-                                quia cumque dicta blanditiis laborum porro unde!
+                                AETE organizes a wide range of events throughout the year, including technical workshops, 
+                                hackathons, industry expert talks, project exhibitions, alumni meets, and skill development 
+                                sessions. We also conduct regular hands-on training in circuit design, programming, and emerging 
+                                technologies.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Single Faq -->
+                        <div class="ep-faq__accordion-item">
+                          <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <span>04</span>Can I get mentorship support for my projects?
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="ep-faq__accordion-body">
+                              <p class="ep-faq__accordion-text">
+                                Yes! AETE provides comprehensive mentorship support through our network of experienced seniors, 
+                                faculty advisors, and industry professionals. Whether you're working on academic projects, 
+                                competition entries, or personal innovations, our mentors will guide you through ideation, 
+                                implementation, and documentation.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Single Faq -->
+                        <div class="ep-faq__accordion-item">
+                          <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              <span>05</span>How does AETE help with career development?
+                            </button>
+                          </h2>
+                          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="ep-faq__accordion-body">
+                              <p class="ep-faq__accordion-text">
+                                AETE supports career development through various initiatives including resume building workshops, 
+                                mock interviews, industry connect sessions, and internship opportunities. Our strong alumni network 
+                                provides valuable insights into different career paths and helps members make informed decisions 
+                                about their professional journey.
                               </p>
                             </div>
                           </div>
@@ -588,27 +646,17 @@
                   <div class="ep-testimonial__item position-relative">
                     <div class="ep-testimonial__rattings">
                       <ul>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star off-color"></i>
-                        </li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
                       </ul>
                     </div>
                     <p class="ep-testimonial__desc">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque minus illum minima cupiditate.
-                      Quasi tenetur eius molestiae odit quisquam, aliquam iste minus sint quod vitae, facilis,
-                      cupiditate perspiciatis?
+                      "AETE played a crucial role in shaping my career. The technical workshops and industry exposure 
+                      gave me a strong foundation. The leadership opportunities and project experience I gained as an 
+                      AETE member were invaluable during my job interviews and early career."
                     </p>
                     <div class="ep-testimonial__author">
                       <div class="ep-testimonial__author-img">
@@ -616,7 +664,7 @@
                       </div>
                       <div class="ep-testimonial__author-info">
                         <h5>Ajay Chauhan</h5>
-                        <p>CEO Of KEI Wires</p>
+                        <p>Senior Engineer, KEI Industries</p>
                       </div>
                     </div>
                     <div class="ep-testimonial__shape">
@@ -627,26 +675,17 @@
                   <div class="ep-testimonial__item position-relative">
                     <div class="ep-testimonial__rattings">
                       <ul>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star off-color"></i>
-                        </li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
                       </ul>
                     </div>
                     <p class="ep-testimonial__desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi porro corrupti ipsa animi
-                      eaque. Distinctio repellat enim nulla optio.
+                      "As a recruiter, I've always been impressed by AETE members. They demonstrate strong technical 
+                      skills and practical knowledge. The association's focus on hands-on learning and industry 
+                      collaboration produces well-rounded professionals ready for the challenges of the tech industry."
                     </p>
                     <div class="ep-testimonial__author">
                       <div class="ep-testimonial__author-img">
@@ -654,7 +693,7 @@
                       </div>
                       <div class="ep-testimonial__author-info">
                         <h5>Adarsh Singh</h5>
-                        <p>Samsung R&D, Noida</p>
+                        <p>Technical Lead, Samsung R&D</p>
                       </div>
                     </div>
                     <div class="ep-testimonial__shape">
@@ -665,27 +704,17 @@
                   <div class="ep-testimonial__item position-relative">
                     <div class="ep-testimonial__rattings">
                       <ul>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star off-color"></i>
-                        </li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
                       </ul>
                     </div>
                     <p class="ep-testimonial__desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ratione atque optio provident
-                      ducimus voluptate facere quos perferendis quo, laudantium aliquam iure maiores expedita eaque
-                      excepturi cum accusantium!
+                      "AETE provides an excellent platform for budding electronics engineers. The mentorship program 
+                      and project opportunities helped me develop both technical and soft skills. The network I built 
+                      through AETE continues to be valuable in my professional journey."
                     </p>
                     <div class="ep-testimonial__author">
                       <div class="ep-testimonial__author-img">
@@ -693,7 +722,7 @@
                       </div>
                       <div class="ep-testimonial__author-info">
                         <h5>Yash Rastogi</h5>
-                        <p>SDS Global</p>
+                        <p>Project Manager, SDS Global</p>
                       </div>
                     </div>
                     <div class="ep-testimonial__shape">
@@ -704,35 +733,25 @@
                   <div class="ep-testimonial__item position-relative">
                     <div class="ep-testimonial__rattings">
                       <ul>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star"></i>
-                        </li>
-                        <li>
-                          <i class="icofont-star off-color"></i>
-                        </li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
+                        <li><i class="icofont-star"></i></li>
                       </ul>
                     </div>
                     <p class="ep-testimonial__desc">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nobis at consectetur odit
-                      obcaecati asperiores nemo in aperiam ipsum inventore unde, labore ducimus dolorem iure esse
-                      delectus possimus eius optio?
+                      "Being part of AETE was a transformative experience. The association's focus on emerging 
+                      technologies and practical applications gave me a competitive edge. The leadership experience 
+                      I gained organizing technical events has been incredibly valuable in my current role."
                     </p>
                     <div class="ep-testimonial__author">
                       <div class="ep-testimonial__author-img">
                         <img src="images/author-2.png" alt="author-img">
                       </div>
                       <div class="ep-testimonial__author-info">
-                        <h5>Raju Rastogi</h5>
-                        <p>Photokonic</p>
+                        <h5>Rajeev Kumar</h5>
+                        <p>R&D Engineer, Photokonic Labs</p>
                       </div>
                     </div>
                     <div class="ep-testimonial__shape">
@@ -848,7 +867,7 @@
                     </div>
                     <div class="ep-blog__content">
                       <a href="" class="ep-blog__title">
-                        <h5>Alumini Meet</h5>
+                        <h5>Alumni Meet</h5>
                       </a>
                     </div>
                   </div>
@@ -912,7 +931,7 @@
                       <a href="#">Testimonial</a>
                     </li>
                     <li>
-                      <a href="#">About Us</a>
+                      <a href="about.html">About Us</a>
                     </li>
                     <li>
                       <a href="#">Contact Us</a>
