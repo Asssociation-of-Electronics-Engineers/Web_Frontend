@@ -22,3 +22,127 @@
 @import "error.css";
 @import "mobile-menu.css";
 @import "footer.css";
+
+.ep-contact {
+    padding-top: 100px; /* Add space after navbar */
+}
+
+/* Contact Page Styles */
+.ep-contact__form {
+    padding: 40px;
+    background: var(--ep-white-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+}
+
+.ep-contact__form-mini .ep-btn {
+    background: var(--ep-primary-color-2) !important; /* Orange color */
+    color: var(--ep-white-color);
+    transition: all 0.3s ease;
+}
+
+.ep-contact__form-mini .ep-btn:hover {
+    background: var(--ep-primary-color-5) !important;
+}
+
+.ep-contact__form .form-group {
+    margin-bottom: 20px;
+}
+
+.ep-contact__form .form-control {
+    height: 55px;
+    border: 1px solid var(--ep-border-color);
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.ep-contact__form textarea.form-control {
+    height: auto;
+    padding: 15px 20px;
+}
+
+.ep-contact__info {
+    padding-left: 50px;
+}
+
+.ep-contact__info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.ep-contact__info-item i {
+    font-size: 24px;
+    color: var(--ep-primary-color-5);
+    width: 50px;
+    height: 50px;
+    background: rgba(var(--ep-primary-rgb), 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ep-contact__info-item h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.ep-contact__info-item p {
+    margin: 0;
+    color: var(--ep-paragraph-color);
+}
+
+.ep-contact__map {
+    position: relative;
+    z-index: 1;
+    background: var(--ep-white-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-top: 40px; /* Add space after section title */
+}
+
+.ep-contact__map iframe {
+    border: none;
+    display: block;
+}
+
+.ep-section-head {
+    position: relative;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 991px) {
+    .ep-contact__info {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+}
+
+.ep-btn--orange {
+    background: var(--ep-primary-color-2);
+    color: var(--ep-white-color);
+    padding: 15px 30px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.ep-btn--orange:hover {
+    background: var(--ep-primary-color-5);
+    color: var(--ep-white-color);
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}

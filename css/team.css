@@ -482,3 +482,28 @@
 /*============================================================================================
 	End Team Area
 ==============================================================================================*/
+
+.team-hero {
+    padding-top: 0;  /* Remove top padding completely */
+    padding-bottom: 0; /* Remove bottom padding */
+    margin-top: 0;
+}
+
+.team-page {
+    margin-top: 0;
+}
+
+/* Adjust spacing for team page sections */
+.ep-team.section-gap.position-relative {
+    padding-top: 20px; /* Reduced padding for team section */
+}
+
+/* Adjust section title spacing */
+.ep-section-head {
+    margin-bottom: 20px; /* Reduced margin */
+}
+
+/* Adjust spacing for team page hero section */
+.team-page.ep-hero {
+    padding: 50px 0 40px;  /* Override default hero padding */
+}
