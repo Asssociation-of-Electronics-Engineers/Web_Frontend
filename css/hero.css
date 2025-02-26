@@ -6,7 +6,7 @@
   background-color: var(--ep-offwhite-color);
 }
 .ep-hero {
-  padding: 90px 0px 100px; /* Reduced top padding */
+  padding: 110px 0px 100px; /* Adjusted top padding to account for navbar height */
   margin-top: 0;
 }
 .ep-hero__title {

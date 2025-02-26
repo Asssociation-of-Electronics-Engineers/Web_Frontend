@@ -252,7 +252,7 @@
 
 /* Add margin-top to compensate for fixed header */
 main {
-  margin-top: 70px; /* Reduced margin-top */
+  margin-top: 0; /* Changed from 70px to 0 */
 }
 
 /* Rest of the original CSS remains unchanged */
